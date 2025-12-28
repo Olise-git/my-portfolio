@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 10px;
+}
+
+
+    
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    img {
+        border-radius: 10px;
+    }
+    a {
+        color: blue;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    img {
+        border-radius: 10px;
+    }
+    main {
+        display: flex;
+        gap: 20px;
+    }
+    
+    section {
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        flex: 1;
+    }
+    @media (max-width: 768px) {
+
+        header {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        nav {
+            margin-top: 10px;
+        }
+    
+        main {
+            flex-direction: column;
+        }
+    
+        img {
+            width: 100%;
+            max-width: 300px;
+        }
+    }
+    .hero {
+        background: #222;
+        color: white;
+        padding: 60px 20px;
+        text-align: center;
+    }
+    
+    section {
+        margin-bottom: 30px;
+    }
+    
+    #skills ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    #skills li {
+        background: #eee;
+        display: inline-block;
+        margin: 5px;
+        padding: 8px 12px;
+        border-radius: 5px;
+    }
+    .hero {
+        padding: 40px 15px;
+    }
+            
