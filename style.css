@@ -90,14 +90,30 @@ footer a:hover {
             flex-direction: column;
             text-align: center;
         }
+        .hero {
+            padding: 40px 15px;
+        }
+        header {
+            flex-direction: column;
+            text-align: center;
+        }
     
         nav {
             margin-top: 10px;
         }
     
-        main {
-            flex-direction: column;
+
+    
+        img {
+            width: 100%;
+            max-width: 300px;
         }
+    }
+        nav {
+            margin-top: 10px;
+        }
+    
+       
     
         img {
             width: 100%;
@@ -130,4 +146,29 @@ footer a:hover {
     .hero {
         padding: 40px 15px;
     }
-            
+    #projects {
+        margin-bottom: 40px;
+    }
+    
+    .projects {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .project-card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        flex: 1;
+        min-width: 250px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .project-card a {
+        display: inline-block;
+        margin-top: 10px;
+        color: #333;
+        font-weight: bold;
+    }
+     
